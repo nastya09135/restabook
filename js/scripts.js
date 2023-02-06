@@ -351,7 +351,7 @@ function initRestabook() {
     if ($(".events-carousel").length > 0) {
         var j2 = new Swiper(".events-carousel .swiper-container", {
             preloadImages: false,
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 20,
             loop: true,
             grabCursor: true,
